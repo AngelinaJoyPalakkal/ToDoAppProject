@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = [
-     "https://kitty-planner.onrender.com",
+    "https://todo-kitty-planner.onrender.com",
 ]
 
 
