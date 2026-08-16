@@ -28,6 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://YOUR-RENDER-URL.onrender.com",
+]
+
 
 # Application definition
 
