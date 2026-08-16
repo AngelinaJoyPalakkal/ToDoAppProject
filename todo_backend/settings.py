@@ -1,3 +1,4 @@
+import dj_database_url
 """
 Django settings for todo_backend project.
 
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-)a_3q3@e_@-zi#wme4^q1!ef394ihzq5b(rjz8-ucua3!^va*w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
