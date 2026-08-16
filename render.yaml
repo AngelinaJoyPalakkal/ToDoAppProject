@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: todo-kitty-planner
+    runtime: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true
